@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Números</title>
+  <link rel="stylesheet" href="styles.css">
+ 
+</head>
+<body>
+
+  <label for="numero">Número generado:</label>
+  <input type="text" id="numero" readonly>
+
+  <button onclick="generarNumero()">Generar Número</button>
+  <button onclick="agregarNumero()">Agregar a la Tabla</button>
+  <button onclick="calcularPromedio()">Calcular Promedio</button>
+
+  <table id="tabla">
+    <tr>
+      <th>Números</th>
+    </tr>
+  </table>
+
+  <div id="promedioDiv"></div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
